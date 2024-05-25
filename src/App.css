@@ -1,38 +1,75 @@
-.App {
+
+.main-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  width: 100vw;
+  height: 100vh;
+  background-image: url("https://img.freepik.com/free-photo/tourism-items-assortment-top-view_23-2148909654.jpg?t=st=1716633745~exp=1716637345~hmac=df4a0d3e0e418683040503c85b398227c217b2571fb098804b6b247a023a7a2c&w=1060");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+input{
+  width: 500px;
+  height: 50px;
+  border: 1px solid #000000;
+  border-radius: 50px;
+  padding: 5px;
+}
+input::placeholder{
+  color: #000000;
+  font-size: 20px;
   text-align: center;
 }
+button{
+  width: 150px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 10px;
+  font-weight:bold;
+  height: 50px;
+  font-size: 20px;
+  background-color: red;
+  border-radius: 50px;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+ 
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+button:hover{
+  background-color: #111111;
+  color: #c8d5ee;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+h2{
+  text-transform: uppercase;
+  letter-spacing: 20px;
+  font-size:40px;
+  color:rgb(132, 0, 255)
+}
+.container{
+ 
+border: 2px solid black;
+background: rgb(233,232,246);
+background: linear-gradient(90deg, rgba(233,232,246,1) 0%, rgba(2,255,27,1) 32%, rgba(255,26,0,1) 100%);
+border-radius: 15px;
+ 
+ }
+.header{
+  font-weight: bold;
+}
+.subContainer{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  padding: 20px;
+  border-radius: 20px;
+  
+  margin: 10px;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
 }
